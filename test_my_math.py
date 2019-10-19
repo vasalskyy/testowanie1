@@ -14,13 +14,17 @@ def test_product():
 def test_reversal():
     assert my_math.invert_string("tak") == "kat"
 
+def test_sq():
+    assert my_math.sq(5) == 25
+
 
 def test_palindrom():
     assert my_math.palindrom("ala") == True
     assert my_math.palindrom("as") != True
     assert not my_math.palindrom("as")
 
-test_add()
-test_product()
-test_reversal()
-test_palindrom()
+# test_add()
+# test_product()
+# test_reversal()
+# test_palindrom()
+

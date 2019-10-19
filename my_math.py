@@ -11,5 +11,8 @@ def invert_string(string):
 def palindrom(word):
     return word.lower() == word.lower()[::-1]
 
+def sq(a):
+    return a*a
+
 
 
