@@ -16,6 +16,8 @@ def test_reversal():
 
 def test_sq():
     assert my_math.sq(5) == 25
+    assert my_math.sq(-3) == 9
+    assert my_math.sq(0) == 0
 
 
 def test_palindrom():
